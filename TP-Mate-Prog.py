@@ -24,14 +24,14 @@ def pedir_compuerta():
 
 
 def funcionAnd(x, y):
-    if x and y == 1:
+    if x == 1 and y == 1:
         return True
     else:
         return False
 
 
 def funcionOr(x, y):
-    if x or y == 1:
+    if x == 1 or y == 1:
         return True
     else:
         return False
