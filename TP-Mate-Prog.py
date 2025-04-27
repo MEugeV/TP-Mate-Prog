@@ -21,7 +21,7 @@ def pedir_compuerta():
     message = "Elija que función desea analizar: \n 1- Funcion AND\n 2- Funcion OR\n 3- Funcion NOT\n 4- Funcion NAND\n 5- Funcion NOR \n 6- Funcion XOR\n Su eleccion: "
     while True:
         valor = input(message)
-        if valor in ("0", "1", "2", "3", "4", "5", "6"):
+        if valor in ("1", "2", "3", "4", "5", "6"):
             return int(valor)
         else:
             print("El valor ingresado no es una función válida. Intente nuevamente: ")
