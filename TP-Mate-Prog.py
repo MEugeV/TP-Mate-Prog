@@ -2,6 +2,8 @@
 
 # Definimos las funciones que usaremos para evaluar las funciones booleanas
 
+# Esta función pide al usuario un valor boleano y retorna dicho valor. Valida que sea 0 o 1 y en caso contrario vuelve a a solicitarlo.
+
 
 def pedir_valor_bool(mensaje):
     while True:
@@ -11,6 +13,8 @@ def pedir_valor_bool(mensaje):
         else:
             print(
                 "Valor incorrecto. Los valores booleanos son 1 o 0. Intente nuevamente: ")
+
+# Esta función pide al usuario seleccionar la compuerta que desea evaluar y retorna dicha selección. Valida que sea un entero del 1 al 6 y en caso contrario vuelve a a solicitarlo.
 
 
 def pedir_compuerta():
